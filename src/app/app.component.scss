@@ -1,0 +1,29 @@
+.layout {
+    padding: 24px;
+    background-image: linear-gradient(to right, rgb(123, 123, 189) , rgb(48, 48, 190));
+}
+
+.header{
+    text-align: center;
+    margin: 16px;
+}
+
+.alignCardHeader > .mat-card-header-text{
+    margin: 0px !important;
+}
+.pageHeading{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.pageSubHeading{
+    color: #fff;
+    font-size: 16px;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: 500;
+}
