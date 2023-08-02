@@ -73,20 +73,6 @@ export class AppComponent {
 
   companies = [
     {
-      name: 'Paysfer eMart',
-      href: '',
-      location: 'Bangalore, India',
-      position: 'Lead Full Stack Developer - Intern',
-      dateRange: 'June 2022 – May 2023',
-      points: [
-        'Design architecture of 2 web applications to create a plan for storing data, APIs, and user’s experience, enabling company to launch a resale and an e-commerce website',
-        'Create RESTful APIs to develop interaction between front and back-end of both web applications, implementing UI and business logic, using React and NodeJS ',
-        'Deploy front and back-end code on GCP (Google Cloud Platform) using App Engine and Compute Engine to host new applications on distributed server',
-        'Designed schema for data storage and installed MongoDB in virtual machine to store data on Compute Engine ',
-        'Executed RESTful APIs calls and integrated channel advisor APIs and search.io APIs to enable sellers to send product information and to retrieve faster search result data',
-      ],
-    },
-    {
       name: 'Blue Yonder',
       href: 'https://blueyonder.com/',
       location: 'Bangalore, India',
