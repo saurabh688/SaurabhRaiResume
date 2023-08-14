@@ -17,39 +17,11 @@
       </mat-card-header>
       <mat-card-content>
         <p>
-          Software Engineer with 5 years’ experience in software development, Agile Methodology, and testing strategies. Expert in React, Angular, NodeJS, JavaScript, Java, App engine, DevOps, Compute Engine, Test Automation and Microservices Architecture.       
-        </p>
+          Software Engineer with 5+ years’ experience in software development, Agile Methodology, and testing strategies. Expert in React, Angular, NodeJS, JavaScript, Java, App engine, DevOps, Compute Engine, Test Automation and Microservices Architecture.        </p>
       </mat-card-content>
     </mat-card>
 <br/>
-<mat-card class="mat-elevation-z5">
-  <mat-card-header style="margin-left: -16px;">
-    <mat-card-title>TECHNICAL SKILLS</mat-card-title>
-    <mat-card-subtitle><hr/></mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    
-    <div class="row" *ngFor="let data of technicalSkills" style="margin-bottom: 12px;">
-      <div class="col-lg-12 heading">
-       {{data.title}}        
-      </div>
-     
-      <div class="col-lg-12"  style="display: flex;">
-        <span *ngFor="let data of data.value" style="margin-right: 8px;">
-          <mat-chip-list>
-            <mat-chip >{{data}}</mat-chip>
-          </mat-chip-list>
-        </span>   
-     
-    
-      </div>
-  
 
-    </div>
-
-  </mat-card-content>
-</mat-card>
-<br/>
 <mat-card class="mat-elevation-z5">
   <mat-card-header style="margin-left: -16px;">
     <mat-card-title>EXPERIENCE</mat-card-title>
@@ -83,6 +55,34 @@
     </div>
    
   
+  </mat-card-content>
+</mat-card>
+<br/>
+<mat-card class="mat-elevation-z5">
+  <mat-card-header style="margin-left: -16px;">
+    <mat-card-title>TECHNICAL SKILLS</mat-card-title>
+    <mat-card-subtitle><hr/></mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    
+    <div class="row" *ngFor="let data of technicalSkills" style="margin-bottom: 12px;">
+      <div class="col-lg-12 heading">
+       {{data.title}}        
+      </div>
+     
+      <div class="col-lg-12"  style="display: flex;">
+        <span *ngFor="let data of data.value" style="margin-right: 8px;">
+          <mat-chip-list>
+            <mat-chip >{{data}}</mat-chip>
+          </mat-chip-list>
+        </span>   
+     
+    
+      </div>
+  
+
+    </div>
+
   </mat-card-content>
 </mat-card>
 <br/>
