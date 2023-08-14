@@ -77,7 +77,7 @@ export class AppComponent {
       href: '',
       location: 'Bangalore, India',
       position: 'Lead Full Stack Developer - Intern',
-      dateRange: 'June 2022 – May 2023',
+      dateRange: 'June 2022 – Present',
       points: [
         'Design architecture of 2 web applications to create a plan for storing data, APIs, and user’s experience, enabling company to launch a resale and an e-commerce website',
         'Create RESTful APIs to develop interaction between front and back-end of both web applications, implementing UI and business logic, using React and NodeJS ',
